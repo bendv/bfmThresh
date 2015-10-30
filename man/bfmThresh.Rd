@@ -47,7 +47,7 @@ The default value for \code{magnPeriod} is 1, assuming that no follow-up land us
 The amplitude of the fitted 1st order model can be computed by taking \code{sqrt{harmoncos^2 + harmonsin^2}}
 }
 \examples{
-library(bfastSpatial)
+library(bfmThresh)
 data(tura)
 s <- getSceneinfo(names(tura))
 xy <- c(820692.4, 829564.4)

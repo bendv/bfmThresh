@@ -26,8 +26,10 @@
 #' @author Ben DeVries
 #' @import bfastSpatial
 #' 
+#' @export
+#' 
 #' @examples
-#' library(bfastSpatial)
+#' library(bfmThresh)
 #' data(tura)
 #' s <- getSceneinfo(names(tura))
 #' xy <- c(820692.4, 829564.4)
